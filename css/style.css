@@ -24,18 +24,19 @@ html {
     max-width: 800px;
 }
 
-.name {
+.header__title {
     text-align: center;
     padding: 20px;
 
 }
 
-.welcome {
+.header__welcome {
     text-align: center;
 }
 
-.button {
-    margin-left: 330px;
+.header__button {
+    margin:auto;
+    margin-left: 340px;
     background-color: #e8e8e8ae;
     padding: 10px;
     font-size: 20px;
@@ -45,45 +46,45 @@ html {
     border-radius: 10px;
 }
 
-.navigation {
-    text-align: center;
-}
-
-.navigation_list {
-    list-style-type: none;
-}
-
-.navigation_listItem {
-    margin: 10px;
-}
-
-.navigation_link {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.navigation_link:visited {
-    color: rgba(161, 98, 98, 0.528);
-}
-
-.navigation_link:focus {
-    outline: 2px solid black;
-
-}
-
-.navigation_link:hover {
-    color: black;
-
-}
-
-.image {
+.header__image {
     margin-left: 270px;
     margin-bottom: 15px;
     border-radius: 30px;
 }
 
-.email {
+.navigation {
+    text-align: center;
+}
+
+.navigation__list {
+    list-style-type: none;
+}
+
+.navigation__listItem {
+    margin: 10px;
+}
+
+.navigation__link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation__link:visited {
+    color: rgba(161, 98, 98, 0.528);
+}
+
+.navigation__link:focus {
+    outline: 2px solid black;
+
+}
+
+.navigation__link:hover {
+    color: black;
+
+}
+
+.section__email {
     color: black;
 }
 
@@ -98,33 +99,34 @@ html {
 .table {
     border-collapse: collapse;
     overflow-x: auto;
-    margin-left: 450px;
+    margin:auto;
 }
 
-.tableCell {
+.table__caption{
+    background-color: #756c6b;
+    color: #eee;
+}
+
+.table__cell {
     border: 1px solid #eee;
     padding: 15px;
     text-align: center;
     vertical-align: middle;
 }
 
-.tableHeader {
+.table__header {
     color: white;
     background-color: #A3736E;
 }
 
-.tableRow:nth-child(even) {
+.table__row:nth-child(even) {
     background: #eee;
 }
 
-.tableRow:hover {
+.table__row:hover {
     background-color: #aea4a4;
 }
 
-.series {
-    background-color: #756c6b;
-    color: #eee;
-}
 
 .dark {
     background-color: #a49a9ad9;
@@ -136,21 +138,21 @@ html {
     margin-top: 20px;
 }
 
-.aside_unorderedList {
+.aside__unorderedList {
     list-style-type: none;
 }
 
-.aside_listItem {
+.aside__listItem {
     margin: 5px;
 }
 
-.aside_link {
+.aside__link {
     color: rgb(136, 84, 84);
     text-decoration: none;
     font-size: 20px;
 }
 
-.aside_link:hover {
+.aside__link:hover {
     color: black;
 }
 
