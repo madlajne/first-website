@@ -1,0 +1,162 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    margin: auto;
+    max-width: 1000px;
+    background-color: white;
+    color: black;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.header {
+    background-color: blanchedalmond;
+    margin: auto;
+    padding: 2px;
+    border-radius: 50px;
+    max-width: 800px;
+}
+
+.name {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.welcome {
+    text-align: center;
+}
+
+.button {
+    margin-left: 330px;
+    background-color: #e8e8e8ae;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    border: none;
+    color: rgb(9, 0, 47);
+    border-radius: 10px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.navigation_list {
+    list-style-type: none;
+}
+
+.navigation_listItem {
+    margin: 10px;
+}
+
+.navigation_link {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation_link:visited {
+    color: rgba(161, 98, 98, 0.528);
+}
+
+.navigation_link:focus {
+    outline: 2px solid black;
+
+}
+
+.navigation_link:hover {
+    color: black;
+
+}
+
+.image {
+    margin-left: 270px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+
+.email {
+    color: black;
+}
+
+.main {
+    text-align: center;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    overflow-x: auto;
+    margin-left: 450px;
+}
+
+.tableCell {
+    border: 1px solid #eee;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tableHeader {
+    color: white;
+    background-color: #A3736E;
+}
+
+.tableRow:nth-child(even) {
+    background: #eee;
+}
+
+.tableRow:hover {
+    background-color: #aea4a4;
+}
+
+.series {
+    background-color: #756c6b;
+    color: #eee;
+}
+
+.dark {
+    background-color: #a49a9ad9;
+}
+
+.aside {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.aside_unorderedList {
+    list-style-type: none;
+}
+
+.aside_listItem {
+    margin: 5px;
+}
+
+.aside_link {
+    color: rgb(136, 84, 84);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.aside_link:hover {
+    color: black;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: blanchedalmond;
+    font-size: 20px;
+}
