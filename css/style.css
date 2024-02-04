@@ -17,17 +17,17 @@ html {
 }
 
 .header {
-    background-color: blanchedalmond;
+    background-color: hsla(37, 92%, 95%, 0.753);
     margin: auto;
-    padding: 2px;
-    border-radius: 50px;
+    padding-bottom: 20px;
+    border-radius: 30px;
     max-width: 800px;
 }
 
 .header__title {
     text-align: center;
-    padding: 20px;
-
+    padding-top: 20px;
+    font-size: 30px;
 }
 
 .header__welcome {
@@ -37,7 +37,7 @@ html {
 .header__button {
     margin:auto;
     margin-left: 340px;
-    background-color: #e8e8e8ae;
+    background-color: #957c7c2a;
     padding: 10px;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
@@ -103,7 +103,7 @@ html {
 }
 
 .table__caption{
-    background-color: #756c6b;
+    background-color: hsla(0, 4%, 80%, 0.417);
     color: #eee;
 }
 
@@ -129,7 +129,7 @@ html {
 
 
 .dark {
-    background-color: #a49a9ad9;
+    background-color: hsla(0, 5%, 62%, 0.44);
 }
 
 .aside {
