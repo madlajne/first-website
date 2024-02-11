@@ -1,7 +1,7 @@
 # Magdalena Makuch - first website
 
 ## Demo
-[![madlajne.jpg](https://i.postimg.cc/L8yZr1kz/madlajne.jpg)](https://postimg.cc/dhy1CDx1)
+![madlajne.jpg](https://raw.githubusercontent.com/madlajne/first-website/main/images/readme.jpeg)
 
 https://madlajne.github.io/first-website/
 
