@@ -7,8 +7,8 @@ html {
 }
 
 .body {
-    margin: auto;
-    max-width: 1000px;
+    margin: 20px;
+    max-width: 700px;
     background-color: white;
     color: black;
     font-family: "Lato", sans-serif;
@@ -22,6 +22,7 @@ html {
     padding-bottom: 20px;
     border-radius: 30px;
     max-width: 800px;
+    text-align: center;
 }
 
 .header__title {
@@ -36,7 +37,6 @@ html {
 
 .header__button {
     margin:auto;
-    margin-left: 340px;
     background-color: #957c7c2a;
     padding: 10px;
     font-size: 20px;
@@ -47,7 +47,6 @@ html {
 }
 
 .header__image {
-    margin-left: 270px;
     margin-bottom: 15px;
     border-radius: 30px;
 }
@@ -157,7 +156,7 @@ html {
 }
 
 .footer {
-    margin-top: 20px;
+    margin: 20px;
     text-align: center;
     background-color: hsla(37, 92%, 95%, 0.753);
     font-size: 20px;
